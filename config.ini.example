@@ -7,6 +7,7 @@ workers = 3
 cookie_webhooks = False
 custom_cookie_text = 
 webhook_url = webhook_url
+sendwebhook_url = sendwebhook_url
 
 [DB]
 scanner = mad/rdm

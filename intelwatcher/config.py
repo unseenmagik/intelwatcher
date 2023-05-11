@@ -10,6 +10,7 @@ class Config:
         self.cookie_wh = config_file.getboolean("Config", "cookie_webhooks")
         self.cookie_text = config_file.get("Config", "custom_cookie_text", fallback="")
         self.wh_url = config_file.get("Config", "webhook_url")
+        self.whsend_url = config_file.get("Config", "sendwebhook_url")
         self.workers = config_file.getint("Config", "workers", fallback=1)
         self.maxtiles = config_file.getint("Config", "max_tiles", fallback=450)
         self.areasleep = config_file.getint("Config", "sleep_between_areas", fallback=3)
